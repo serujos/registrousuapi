@@ -2,10 +2,10 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
 WORKDIR /app
 
 COPY *.csproj ./
-RUN dotnet restore
+RUN dotnet restore ExamenUsuarios.sln
 
 COPY . ./
-RUN dotnet publish -c Release -o out
+RUN dotnet publish ExamenUsuarios.sln -c Release -o out
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
