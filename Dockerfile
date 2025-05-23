@@ -16,6 +16,6 @@ WORKDIR /app
 COPY --from=build-env /app/out .
 
 # Cambia esto si el nombre del DLL es diferente
-ENV APP_NET_CORE=registrousuaou.dll
+ENV APP_NET_CORE=registrousuapi.dll
 
 CMD ASPNETCORE_URLS=http://*:$PORT dotnet $APP_NET_CORE
