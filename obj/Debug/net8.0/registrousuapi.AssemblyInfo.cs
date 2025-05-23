@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("registrousuapi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e772da2bb58ecb94dc0ed4cf4816c682310b0b16")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4790b6c7b91b8ba5d29c274facefac4518342037")]
 [assembly: System.Reflection.AssemblyProductAttribute("registrousuapi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("registrousuapi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

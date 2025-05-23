@@ -168,3 +168,8 @@ C:\Users\jos\Desktop\registrousuapi\obj\Debug\net8.0\refint\registrousuapi.dll
 C:\Users\jos\Desktop\registrousuapi\obj\Debug\net8.0\registrousuapi.pdb
 C:\Users\jos\Desktop\registrousuapi\obj\Debug\net8.0\registrousuapi.genruntimeconfig.cache
 C:\Users\jos\Desktop\registrousuapi\obj\Debug\net8.0\ref\registrousuapi.dll
+C:\Users\jos\Desktop\registrousuapi\bin\Debug\net8.0\out\web.config
+C:\Users\jos\Desktop\registrousuapi\bin\Debug\net8.0\out\appsettings.Development.json
+C:\Users\jos\Desktop\registrousuapi\bin\Debug\net8.0\out\appsettings.json
+C:\Users\jos\Desktop\registrousuapi\bin\Debug\net8.0\out\registrousuapi.deps.json
+C:\Users\jos\Desktop\registrousuapi\bin\Debug\net8.0\out\registrousuapi.runtimeconfig.json
