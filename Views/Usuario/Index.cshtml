@@ -1,0 +1,39 @@
+@model IEnumerable<registrousuapi.ViewModels.UsuarioVista>
+@{
+    ViewData["Title"] = "Usuarios Registrados";
+}
+
+<h2 class="text-2xl font-bold mb-4">Usuarios Registrados</h2>
+
+<table class="table-auto border-collapse w-full text-left shadow-lg">
+    <thead>
+        <tr class="bg-gray-200 text-gray-700">
+            <th class="px-4 py-2">Nombre</th>
+            <th class="px-4 py-2">Email</th>
+            <th class="px-4 py-2">País</th>
+            <th class="px-4 py-2">Región</th>
+            <th class="px-4 py-2">Bandera</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            <tr class="border-b hover:bg-gray-50">
+                <td class="px-4 py-2">@u.Nombre</td>
+                <td class="px-4 py-2">@u.Email</td>
+                <td class="px-4 py-2">@u.PaisOficial</td>
+                <td class="px-4 py-2">@u.Region</td>
+                <td class="px-4 py-2">
+                    @if (!string.IsNullOrEmpty(u.BanderaUrl))
+                    {
+                        <img src="@u.BanderaUrl" alt="Bandera" width="60" class="rounded shadow" />
+                    }
+                    else
+                    {
+                        <span>No disponible</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
